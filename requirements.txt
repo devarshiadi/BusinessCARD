@@ -1,5 +1,4 @@
 fastapi
-uvicorn
+mangum
 google-generativeai
 httpx
-mangum
