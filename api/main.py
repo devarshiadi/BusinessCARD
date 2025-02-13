@@ -15,7 +15,7 @@ logger = logging.getLogger("business-card-api")
 app = FastAPI(title="Business Card Extraction API")
 
 # Retrieve the API key from the environment (fallback provided for testing)
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyDcYyq3w21iwipYn17wCAQo3AYWhUIGDSI")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "youAPI")
 if not GOOGLE_API_KEY:
     logger.error("Missing GOOGLE_API_KEY environment variable.")
     raise Exception("Missing GOOGLE_API_KEY environment variable.")
